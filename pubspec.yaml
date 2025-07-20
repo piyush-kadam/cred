@@ -1,0 +1,64 @@
+name: cred
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  visibility_detector: ^0.4.0+2
+  neopop: ^1.0.2
+  flutter_native_splash: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/am.jpg
+    - assets/images/week.jpg
+    - assets/images/c1.jpg
+    - assets/images/s2.jpg
+    - assets/images/s3.jpg
+    - assets/images/e4.jpg
+    - assets/images/e3.jpg
+    - assets/images/e2.jpg
+    - assets/images/e1.jpg
+    - assets/images/t1.jpg
+    - assets/images/t2.jpg
+    - assets/images/t3.jpg
+    - assets/images/t4.jpg
+    - assets/images/lr.jpg
+    - assets/images/play.jpg
+    - assets/images/wpfp.jpg
+    - assets/images/krpfp.jpg
+    - assets/images/bdpfp.jpg
+    - assets/images/smpfp.jpg
+    - assets/images/aspfp.jpg
+    - assets/images/taypfp.jpg
+    - assets/images/lanapfp.jpg
+
+
+flutter_native_splash:
+  color: "#000000"  # Black background
+  image: assets/images/logo.jpg  # Path to your splash screen image
+  android: true  # Enable splash screen for Android
+  ios: true  # Enable splash screen for iOS
+  fullscreen: true  # Use full-screen splash
+
+  android_12:
+    color: "#000000"  # Black background
+    image: assets/images/logo.jpg  # Path to your splash screen image
+    android: true  # Enable splash screen for Android
+    ios: true  # Enable splash screen for iOS
+    fullscreen: true  # Use full-screen splash
